@@ -1,0 +1,314 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container-3{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 70px;
+
+}
+
+.banner{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.procourse{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    color: blue;
+}
+
+.tag{
+    background-color: gold;
+    padding: 5px;
+    color: white;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.feesback{
+    border: 1px solid white;
+    background-color: yellow;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.features img{
+    width: 40px;
+}
+
+.features{
+    display: flex;
+    padding: 8px;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.right img{
+    width: 400px;
+    border-radius: 10px;
+}
+
+.right{
+    padding: 20px;
+}
+
+.subject span{
+    border: 1px solid white;
+    background-color: rgb(175, 174, 174);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.subject{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.language{
+    padding: 20px;
+}
+
+.english{
+    border: white;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+}
+
+.banner-1{
+    padding: 10px;
+}
+
+.viewplan{
+    padding: 5px;
+    color: white;
+    background-color: rgb(255, 60, 0);
+    border-radius: 10px;
+}
+
+.viewplan button{
+    padding: 10px;
+}
+
+.container-1{
+    background: purple;
+    border-radius: 10px;
+    padding: 20px;
+    margin: auto;
+}
+
+.h2{
+    margin-bottom: 20px;
+}
+
+.contents{
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    gap: 20px;
+    border-radius: 10px;
+}
+
+.content h3{
+    background-color: rgb(190, 190, 190);
+}
+
+.content{
+    flex: 3;
+}
+
+.section h3{
+    margin-top: 20px;
+    color: #333;
+}
+
+.section ul{
+    list-style: none;
+    padding: 0;
+}
+
+.section li{
+    margin: 10px 0;
+    padding-left: 25px;
+}
+
+.redlive{
+    background: red;
+    color: white;
+    font-size: 12px;
+    padding: 2px 6px;
+    border-radius: 3px;
+    margin-left: 5px;
+}
+
+.price-box{
+    flex: 1;
+    background: #f2faff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.price-box h4{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.price-box .price{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.price-box span{
+    font-size: 14px;
+    display: block;
+    margin-top: 5px;
+}
+
+.price-box button{
+    background: #ff5722;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.price-box a{
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.container-2{
+    padding: 20px;
+    width: 100%;
+    position:relative;
+}
+
+.results{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.results img{
+    width: 400px;
+    border-radius: 10px;
+}
+
+.teacher img{
+    border-radius: 10px;
+}
+
+.sidecard{
+    width: 30%;
+    padding: 20px;
+    border-radius: 8px;
+    position: absolute;
+    top: 0;
+    margin-left: 900px;
+    background-color: blue;
+}
+
+.prolite{
+    background-color: white;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.prolite button{
+    color: white;
+    background-color: #ff5722;
+    padding: 10px;
+}
+
+.clarity{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: whitesmoke;
+}
+
+.clarity button{
+    padding: 10px;
+    background-color: rgb(26, 17, 17);
+    color: white;
+    border-radius: 8px;
+}
+
+.teacher{
+    padding: 20px;
+}
+
+.smallboxes{
+    padding: 20px;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 910px){
+    .banner{
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    .container-3{
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .container-1{
+        display: none;
+    }
+
+    .teacher img{
+        width: 350px;
+    }
+
+    .sidecard{
+        margin-left: 0px;
+        width: 100%;
+        position: relative;
+    }
+
+    .results{
+        margin-left: 80px;
+    }
+
+    .clarity{
+        flex-direction: column;
+    }
+    
+    .features{
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .banner-1{
+        text-align: center;
+    }
+
+    .subject{
+        flex-direction: column;
+        text-align: center;
+   }
+
+   .container-3 button{
+        width: 100%;
+   }
+}
